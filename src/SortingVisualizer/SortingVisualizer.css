@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+    margin-bottom: 60px; /* Leaves space for the footer */
+}
+
+.array-bar {
+    background-color: blue;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.footer button{
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'tiny5';
+    
+    
+
+}
+
+.footer button:hover{
+    cursor: pointer;
+
+}
