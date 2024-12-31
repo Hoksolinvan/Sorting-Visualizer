@@ -2,14 +2,10 @@ import React from 'react';
 import './SortingVisualizer.css';
 import { getMergeSortAnimations,getBubbleSortAnimations,getInsertionSortAnimations,getSelectionSortAnimations } from '../SortingAlgorithms/SortingAlgorithm.js';
 
-// Change this value for the speed of the animations.
-const ANIMATION_SPEED_MS = 1;
 
-// This is the main color of the array bars.
+const ANIMATION_SPEED_MS = 1;
 const PRIMARY_COLOR = 'blue';
 const SECONDARY_COLOR = 'red';
-
-// Maximum number of elements
 const MAX_ARRAY_SIZE = 320;
 
 export default class SortingVisualizer extends React.Component {
